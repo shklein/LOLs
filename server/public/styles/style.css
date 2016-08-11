@@ -1,0 +1,44 @@
+h2 {
+  text-align: center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+.container {
+  text-align: center;
+}
+
+select {
+  margin: 5px;
+}
+
+.container button {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+list-style-type: none;
+}
+
+.foot {
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-fluid p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: normal;
+}

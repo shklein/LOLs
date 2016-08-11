@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AA LOLs</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <!-- Angular -->
+    <script type="text/javascript" src="/vendors/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/clientapp.js"></script>
+    <!-- Controllers -->
+    <script type="text/javascript" src="/scripts/controllers/videocontroller.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/addcontroller.js"></script>
+
+
+</head>
+<body ng-app="myApp">
+  <header ng-include="'../views/templates/header.html'"></header>
+
+  <div ng-include="'/views/templates/nav.html'"></div>
+
+<main ng-view></main>
+<footer ng-include="'../views/templates/footer.html'"></footer>
+
+</body>
+</html>
